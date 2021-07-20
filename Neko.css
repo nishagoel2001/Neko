@@ -1,0 +1,194 @@
+
+/* navbar */
+.navbar {
+  background-image: linear-gradient(
+    to right,
+    rgb(206, 108, 228) 0%,
+    rgb(136, 98, 212) 50%,
+    rgb(122, 238, 219) 100%
+  );
+}
+.navbar-brand {
+  font-size: 35px;
+  font-weight: 900;
+  padding-left: 30px;
+  font-family: 'Roboto Slab', serif;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+  font-weight: bold;
+}
+/* navbar ends */
+
+/* heading */
+.header {
+  background-color: #e5faf6;
+  padding-bottom: 50px;
+}
+.h3 {
+  text-align: center;
+  padding-top: 50px;
+  font-weight: 600;
+  font-size: 45px;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: 'Oswald', sans-serif;
+}
+.text-muted {
+  text-align: center;
+  font-size: 27px;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-weight: 800;
+}
+/* heading ends */
+
+
+/* contact button */
+.c_button {
+  font-size: 14px;
+  margin-top: 20px;
+  text-align: center;
+  background-color: #22c8e5;
+  border-radius: 50px;
+  padding: 20px;
+  font-weight: 700;
+}
+.contact_button {
+  text-align: center;
+  margin-bottom: 50px;
+}
+/* contact button ends */
+
+/* service section */
+.s_cards{
+  text-align: center;
+}
+.s_text{
+  font-size: 18px;
+  font-weight: 600;
+  padding-top: 20px;
+}
+/* service section ends */
+
+.services,
+.client,
+.testimonial,
+.contact {
+  padding-top: 100px;
+  padding-bottom: 40px;
+  font-size: 23px;
+  font-weight: 700;
+  color: #1c0950;
+  font-family: 'PT Serif', serif;
+}
+/* client section */
+.client_items{
+    font-size: 15px;
+  font-weight: 800;
+  text-align: center;
+}
+i {
+    font-size: 50px;
+  }
+  /* client section ends */
+
+
+  .t_subheading,
+.c_subheading {
+  font-size: 18px;
+}
+
+/* testimonial section */
+.t_text {
+  padding: 50px 20px 30px 20px;
+  text-align: center;
+}
+.t_name {
+  padding-top: 5px;
+  text-align: center;
+  font-weight: 800;
+  font-size: 20px;
+}
+.t_subname{
+    text-align: center;
+    font-size: 15px;
+    margin-top: -20px;
+    padding-bottom: 30px;
+}
+/* testimonial section ends */
+
+
+
+/* contact form */
+.contact_email {
+    text-decoration: none;
+  }
+  .contact_heading {
+    padding-top: 40px;
+    padding-bottom: 5px;
+  }
+  .contact_details {
+    margin-right: 25%;
+  }
+  .contact_submit {
+    padding: 1% 2% 1% 2%;
+    background-color: #22c8e5;
+    border-radius: 50px;
+  }
+/* contact form ends */
+
+
+  /* footer */
+  .footer {
+    margin-top: 150px;
+    background-color: rgba(52, 28, 119, 0.75);
+    padding-bottom: 30px;
+  }
+  .f_logo {
+    font-size: 35px;
+    font-weight: 900;
+    padding-top: 90px;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+  
+  }
+  .f_container {
+    font-size: 20px;
+    padding-top: 40px;
+  }
+  .f_quicklinks {
+    text-decoration: none;
+    padding-top: 5px;
+    font-size: 15px;
+    color: white;
+  }
+  
+  .f_contact,
+  .f_icon {
+    padding-top: 5px;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+  }
+  .quicklinks_heading {
+    color: white;
+    font-weight: 700;
+
+  }
+/* footer ends */
+
+
+
+/* mobile media queries */
+@media (min-width:480px){
+    .navbar-nav {
+        margin-left: 650px;
+      }
+      .contact_details {
+        margin-right: 45%;
+      }
+}
+
