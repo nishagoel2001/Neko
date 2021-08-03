@@ -1,4 +1,3 @@
-
 /* navbar */
 .navbar {
   background-image: linear-gradient(
@@ -12,14 +11,18 @@
   font-size: 35px;
   font-weight: 900;
   padding-left: 30px;
-  font-family: 'Roboto Slab', serif;
-
+  font-family: "Roboto Slab", serif;
 }
 
 .navbar-light .navbar-nav .nav-link {
   color: black;
   font-weight: bold;
+  transition: 0.2s;
 }
+.navbar-light .navbar-nav .nav-link:hover {
+  transform: scale(1.1);
+}
+
 /* navbar ends */
 
 /* heading */
@@ -34,7 +37,7 @@
   font-size: 45px;
   margin-left: 10%;
   margin-right: 10%;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 .text-muted {
   text-align: center;
@@ -42,9 +45,9 @@
   margin-left: 10%;
   margin-right: 10%;
   font-weight: 800;
+  padding-top: 20px;
 }
 /* heading ends */
-
 
 /* contact button */
 .c_button {
@@ -55,6 +58,10 @@
   border-radius: 50px;
   padding: 20px;
   font-weight: 700;
+  transition: 0.2s;
+}
+.c_button:hover {
+  transform: scale(1.1);
 }
 .contact_button {
   text-align: center;
@@ -63,10 +70,10 @@
 /* contact button ends */
 
 /* service section */
-.s_cards{
+.s_cards {
   text-align: center;
 }
-.s_text{
+.s_text {
   font-size: 18px;
   font-weight: 600;
   padding-top: 20px;
@@ -82,21 +89,20 @@
   font-size: 23px;
   font-weight: 700;
   color: #1c0950;
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
 }
 /* client section */
-.client_items{
-    font-size: 15px;
+.client_items {
+  font-size: 15px;
   font-weight: 800;
   text-align: center;
 }
 i {
-    font-size: 50px;
-  }
-  /* client section ends */
+  font-size: 50px;
+}
+/* client section ends */
 
-
-  .t_subheading,
+.t_subheading,
 .c_subheading {
   font-size: 18px;
 }
@@ -112,83 +118,90 @@ i {
   font-weight: 800;
   font-size: 20px;
 }
-.t_subname{
-    text-align: center;
-    font-size: 15px;
-    margin-top: -20px;
-    padding-bottom: 30px;
+.t_subname {
+  text-align: center;
+  font-size: 15px;
+  margin-top: -20px;
+  padding-bottom: 30px;
 }
 /* testimonial section ends */
 
-
-
 /* contact form */
 .contact_email {
-    text-decoration: none;
-  }
-  .contact_heading {
-    padding-top: 40px;
-    padding-bottom: 5px;
+  text-decoration: none;
+}
+.contact_heading {
+  padding-top: 40px;
+  padding-bottom: 5px;
+}
+.contact_details{
+  box-shadow: 1px 1px 1px 3.5px rgba(0,0,0,0.10),1px 1px 1px 1px rgba(0,0,0,0.20);
+}
+.contact_inside {
+  margin: 10%;
+}
+.contact_submit {
+  padding: 2% 4% 2% 4%;
+  background-color: #22c8e5;
+  border-radius: 50px;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+.contact_submit:hover {
+  transform: scale(1.1);
+}
+/* contact form ends */
+
+/* footer */
+.footer {
+  margin-top: 150px;
+  background-color: rgba(52, 28, 119, 0.75);
+  padding-bottom: 30px;
+}
+.f_logo {
+  font-size: 35px;
+  font-weight: 900;
+  padding-top: 90px;
+  color: white;
+  font-family: "Roboto Slab", serif;
+}
+.f_container {
+  font-size: 20px;
+  padding-top: 40px;
+}
+.f_quicklinks {
+  text-decoration: none;
+  padding-top: 5px;
+  font-size: 15px;
+  color: white;
+}
+
+.f_contact,
+.f_icon {
+  padding-top: 5px;
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+}
+.quicklinks_heading {
+  color: white;
+  font-weight: 700;
+}
+/* footer ends */
+
+/* mobile media queries */
+@media (min-width: 480px) {
+  .navbar-nav {
+    margin-left: 650px;
   }
   .contact_details {
     margin-right: 25%;
+    margin-left: 25%;
   }
-  .contact_submit {
-    padding: 1% 2% 1% 2%;
-    background-color: #22c8e5;
-    border-radius: 50px;
+  .header {
+    padding-bottom: 11rem;
   }
-/* contact form ends */
-
-
-  /* footer */
-  .footer {
-    margin-top: 150px;
-    background-color: rgba(52, 28, 119, 0.75);
-    padding-bottom: 30px;
+  .h3 {
+    padding-top: 8rem;
   }
-  .f_logo {
-    font-size: 35px;
-    font-weight: 900;
-    padding-top: 90px;
-    color: white;
-    font-family: 'Roboto Slab', serif;
-  
-  }
-  .f_container {
-    font-size: 20px;
-    padding-top: 40px;
-  }
-  .f_quicklinks {
-    text-decoration: none;
-    padding-top: 5px;
-    font-size: 15px;
-    color: white;
-  }
-  
-  .f_contact,
-  .f_icon {
-    padding-top: 5px;
-    font-size: 15px;
-    text-decoration: none;
-    color: white;
-  }
-  .quicklinks_heading {
-    color: white;
-    font-weight: 700;
-
-  }
-/* footer ends */
-
-
-
-/* mobile media queries */
-@media (min-width:480px){
-    .navbar-nav {
-        margin-left: 650px;
-      }
-      .contact_details {
-        margin-right: 45%;
-      }
 }
-
